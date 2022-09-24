@@ -1,42 +1,35 @@
 
-import Sidebar from './Components/Sidebar';
+import Sidebar from './Components/layout/Sidebar';
 import './index.css'
 import Grid from '@mui/material/Grid';
 import Item from '@mui/material/Grid';
+import Dashboard from './Components/dashboard/Dashboard';
 
 function App() {
   return (
-      <div>
-      <div className='side-top'></div>
-
+     
       <div className="contenedor-app">
-      <div className='side-left'></div>
       
       <Sidebar />
       <div className="seccion-principal">
+         <header className='app-header'><span>Hola <b> libros! </b></span></header>
           <main>
-          <section className="section">
-            <section className="section-item">hola</section>
-            <section className="section-item">hola dos</section>
-            <section className="section-item">hola tres</section>
-            <section className="section-item">hola cuatrossssssssssssss</section>
-          </section>
+            <div className='flex-container' >
+                  <div className='section-left'>
+                    
+                  </div>
 
-          <section className="section">
-            <section className="section-item">
-              
-              <h1>hellou</h1></section>
-            </section>
+                <div className='section-right'>
+                  <Dashboard/>
+                </div>
+              </div>
 
-            <section className="section">
-            <section className="section-item">hola</section>
-            </section>
+
           </main>
         
       </div>
       </div>
-
-      </div>
+     
   );
 }
 
