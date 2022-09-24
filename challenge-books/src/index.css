@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+ 
+  
+  body, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+  /* Set padding to keep content from hitting the edges */
+  .body-content {
+    padding: 2rem 10%;
+    min-height:72%;
+  }
+
+  .contenedor-app {
+    display: flex;
+    min-height: 100vh;
+    background-color: beige;
+}
+  
+.seccion-principal {
+    flex: 6;
+    background-color: gold;
+    margin: 1rem;
+
+}
+
+.side {
+    background-color: aqua;
+    flex: 4;
+    border-radius: 1rem;
+    margin: 1rem;
+
+}
+
+.side-left{
+  background-color: aquamarine;
+  flex: .5;
+  z-index: 2;
+}
+
+.section{
+  display: flex;        /* Flex layout so items have equal height  */
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.section-item{
+    display: flex;        /* Lay out each item using flex layout */
+    flex-flow: column; 
+    background-color: firebrick;
+    flex: 1;
+    padding: 1rem;  
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+
+.side-top{
+  background-color: violet;
+  height: 3rem;
+
+}
