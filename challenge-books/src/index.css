@@ -122,7 +122,7 @@ aside  {
   height: 40%;
   border-bottom: 1px solid rgb(50,20,90); 
   padding:  1rem .5rem  ;
-
+  align-items: center;
   }
 
  .container-list{
@@ -136,4 +136,15 @@ aside  {
 
  i{
   margin-right: .2rem;
+ }
+
+ .cover{
+  height: 100%;
+
+ }
+
+ .card-image{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
  }
