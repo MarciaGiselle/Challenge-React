@@ -148,3 +148,13 @@ aside  {
   width: 60px;
   object-fit: cover;
  }
+
+ .text-center{
+  text-align: center;
+ }
+
+ .card-image-top{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+ }

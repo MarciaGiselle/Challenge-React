@@ -18,9 +18,9 @@ const Book = ({book}) => {
             </div>
             
             <div className="section-item  mr-1">
-            <a href={book.volumeInfo.infoLink} target="_blank">
+            <a href={book.volumeInfo.infoLink} target="_blank" rel="noreferrer">
                 <i className="fas fa-eye"></i>
-                 Ver más
+                 Ver más 
                 </a>
             </div>
            
