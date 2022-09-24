@@ -9,8 +9,12 @@ body {
   }
  
    
-  body, h5, h6 {
+  body, h4, h5, h6,p {
     font-family: 'Roboto', sans-serif;
+  }
+
+  p, h1, h2, h3, h4, h5, h6{
+    margin: .2rem 0 .5rem 0;
   }
   
   body, html {
@@ -59,17 +63,18 @@ aside  {
   border-radius: .5rem;
   padding: .5rem;
   box-shadow: 2px 2px 6px -1px rgba(128,128,128,1);
+  width: 20%;
 }
 
 .section-right{
   margin-left: 1rem;
   flex-grow: 4;
+  width: 80%;
 }
 
 .section-item{
     flex-flow: column; 
     flex: 1;
-    text-align: center;
 }
 
 .mr-1{
@@ -102,3 +107,22 @@ aside  {
   padding: 1.2rem;  
   border: 1px solid rgb(219, 219, 219);
 }
+
+.row{
+  display: block;
+}
+
+.flex-container-list{
+  display: flex;  
+  height: 100%;
+  border-bottom: 1px solid red; 
+  }
+
+ .container-list{
+  overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;
+    height: 75%;
+    padding:  .5rem 1rem  ;
+  background-color: antiquewhite; 
+
+ } 
