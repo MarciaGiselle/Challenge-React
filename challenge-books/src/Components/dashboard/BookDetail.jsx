@@ -13,11 +13,11 @@ const BookDetail = () => {
 
                 <div className='flex-container '>
                     <div className="section-item mr-1">
-                       <span> <i class='far fa-comment'></i>
+                       <span> <i className='far fa-comment'></i>
                         200</span>
                     </div>
                     <div className="section-item mr-1">
-                        <span> <i class="material-icons"></i>
+                        <span> <i className="material-icons"></i>
                         9:00 PM</span>
                     </div>
                 </div>
