@@ -11,7 +11,7 @@ const BookDetail = () => {
                 <h4 className='text-cut'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate consequuntur perferendis odio itaque! Cupiditate, quas. </h4>
                 <p className='text-cut '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate consequuntur perferendis odio itaque! Cupiditate, quas. </p>
 
-                <div className='flex-container '>
+                <div className='flex-container-small '>
                     <div className="section-item mr-1">
                        <span> <i className='far fa-comment'></i>
                         200</span>

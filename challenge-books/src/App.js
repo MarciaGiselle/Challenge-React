@@ -10,7 +10,7 @@ function App() {
       <div className="contenedor-app">
         <Sidebar />
         <div className="seccion-principal">
-         <header className='app-header'><span>Hola <b> libros! </b></span></header>
+         <header className='app-header'><p className='title'>Hola <b> libros! </b></p></header>
           <main>
           <Routes>
             <Route exact path="/" element={<Dashboard/>}/>

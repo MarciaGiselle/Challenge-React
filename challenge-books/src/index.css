@@ -51,6 +51,11 @@ aside  {
   display: flex;  
   height: 100%;      /* Lay out each item using flex layout */
 }
+
+.flex-container-small{
+  display: flex;  
+}
+
 .flex-container-row{
   display: flex; 
   flex-direction: row;
@@ -179,9 +184,14 @@ aside  {
 h4{
   line-height: 1.4rem;
 }
+
 p{
   font-size: .8rem;
   line-height: 1.2rem;
+}
+
+.title{
+  font-size: 1.2rem;
 }
 
 a{
@@ -243,3 +253,4 @@ span{
   border-style: solid;
   border-color: transparent transparent black transparent;
 }
+
