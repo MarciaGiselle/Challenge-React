@@ -254,3 +254,16 @@ span{
   border-color: transparent transparent black transparent;
 }
 
+.green-rounded{
+  border: 1px solid green;
+  border-radius: 1rem;
+  padding: .2rem;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.justify-end{
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 20rem;
+}
